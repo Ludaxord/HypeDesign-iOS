@@ -37,6 +37,7 @@
 		77EA001422E9A3B70044298E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		77EA001722E9A3B70044298E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77EA001922E9A3B70044298E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94FE1057230DD960C1C16E58 /* ProjectSup.podspec */ = {isa = PBXFileReference; lastKnownFileType = file.podspec; path = ProjectSup.podspec; sourceTree = "<group>"; };
 		94FE1477F219DB0754D62988 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		94FE165BA248E2B557F6F973 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = file.gitignore; path = .gitignore; sourceTree = "<group>"; };
 		94FE1867723B3F907A2F6BB8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -95,6 +96,7 @@
 				94FE19E932D9DA0CA5903504 /* ProjectSupTests */,
 				94FE1867723B3F907A2F6BB8 /* README.md */,
 				94FE165BA248E2B557F6F973 /* .gitignore */,
+				94FE1057230DD960C1C16E58 /* ProjectSup.podspec */,
 			);
 			sourceTree = "<group>";
 		};
