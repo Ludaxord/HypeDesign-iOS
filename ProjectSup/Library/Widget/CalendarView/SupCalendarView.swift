@@ -7,5 +7,9 @@ import UIKit
 
 final class SupCalendarView: PSupCalendarView {
 
+    func setViewAttributes() -> Attributes {
+        fatalError("setViewAttributes() has not been implemented")
+    }
+
 }
 

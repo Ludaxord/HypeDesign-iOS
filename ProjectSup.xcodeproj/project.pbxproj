@@ -13,6 +13,7 @@
 		77EA001522E9A3B70044298E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77EA001422E9A3B70044298E /* Assets.xcassets */; };
 		77EA001822E9A3B70044298E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77EA001622E9A3B70044298E /* LaunchScreen.storyboard */; };
 		94FE12D6218A0C1B2637FA71 /* SupWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FE1A78E65B036772EBEC04 /* SupWebView.swift */; };
+		94FE1521AC5537D51E371280 /* Attributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FE13E61664E294AC0048E5 /* Attributes.swift */; };
 		94FE16C314FA1DA8D3E042F3 /* ProjectSup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94FE1E1D76A5C8057B8735B2 /* ProjectSup.framework */; };
 		94FE190A189FFF5AC72D3208 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 94FE165BA248E2B557F6F973 /* .gitignore */; };
 		94FE1A9F6781D8A1A9B3F643 /* PSupCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FE135A0B0783AD3EA0882F /* PSupCalendarView.swift */; };
@@ -43,6 +44,7 @@
 		77EA001922E9A3B70044298E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94FE1057230DD960C1C16E58 /* ProjectSup.podspec */ = {isa = PBXFileReference; lastKnownFileType = file.podspec; path = ProjectSup.podspec; sourceTree = "<group>"; };
 		94FE135A0B0783AD3EA0882F /* PSupCalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSupCalendarView.swift; sourceTree = "<group>"; };
+		94FE13E61664E294AC0048E5 /* Attributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Attributes.swift; sourceTree = "<group>"; };
 		94FE1477F219DB0754D62988 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		94FE165BA248E2B557F6F973 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = file.gitignore; path = .gitignore; sourceTree = "<group>"; };
 		94FE1867723B3F907A2F6BB8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -210,8 +212,17 @@
 			children = (
 				94FE1FEDD6DE9B18639B1FA8 /* SupCalendarView.swift */,
 				94FE135A0B0783AD3EA0882F /* PSupCalendarView.swift */,
+				94FE1CEE8B7236D58ECDEF5E /* Elements */,
 			);
 			path = CalendarView;
+			sourceTree = "<group>";
+		};
+		94FE1CEE8B7236D58ECDEF5E /* Elements */ = {
+			isa = PBXGroup;
+			children = (
+				94FE13E61664E294AC0048E5 /* Attributes.swift */,
+			);
+			path = Elements;
 			sourceTree = "<group>";
 		};
 		94FE1D049205D10E5AADBD3B /* Protocols */ = {
@@ -379,6 +390,7 @@
 				94FE1A9F6781D8A1A9B3F643 /* PSupCalendarView.swift in Sources */,
 				94FE12D6218A0C1B2637FA71 /* SupWebView.swift in Sources */,
 				94FE1B5AB2FF7F16914CF3C7 /* PSupWebView.swift in Sources */,
+				94FE1521AC5537D51E371280 /* Attributes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
